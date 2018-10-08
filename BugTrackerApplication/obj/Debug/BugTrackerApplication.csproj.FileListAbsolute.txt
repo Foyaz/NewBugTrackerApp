@@ -118,3 +118,7 @@ C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerAppl
 C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\obj\Debug\BugTrackerApplication.csproj.CopyComplete
 C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\obj\Debug\BugTrackerApplication.dll
 C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\obj\Debug\BugTrackerApplication.pdb
+C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\PagedList.dll
+C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\PagedList.Mvc.dll
+C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\PagedList.xml
+C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\PagedList.Mvc.xml
