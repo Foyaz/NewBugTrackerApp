@@ -1,47 +1,4 @@
-﻿@*@*<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    @Styles.Render("~/Content/css")
-    @Scripts.Render("~/bundles/modernizr")
-
-</head>
-<body>
-    <div class="navbar navbar-inverse navbar-fixed-top">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                @Html.ActionLink("Application name", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
-            </div>
-            <div class="navbar-collapse collapse">
-                <ul class="nav navbar-nav">
-                    <li>@Html.ActionLink("Home", "Index", "Home")</li>
-                    <li>@Html.ActionLink("About", "About", "Home")</li>
-                    <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
-                    <li>@Html.ActionLink("Users", "Index", "ApplicationUsers")</li>
-                    <li>@Html.ActionLink("Project", "index", "projects")</li>
-                </ul>
-                @Html.Partial("_LoginPartial")
-            </div>
-        </div>
-    </div>
-    <div class="container body-content">
-        @RenderBody()
-        <hr />
-    </div>
-
-    @Scripts.Render("~/bundles/jquery")
-    @Scripts.Render("~/bundles/bootstrap")
-    @RenderSection("scripts", required: false)
-</body>
-</html>*@
-
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
     <!--
@@ -96,65 +53,21 @@
 </head>
 
 <body>
-    @Html.Partial("_LoginPartial")
     <!-- topbar starts -->
     <div class="navbar navbar-default" role="navigation">
 
         <div class="navbar-inner">
-            <button type="button" class="navbar-toggle pull-left animated flip">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="index.html">
+            <a class="navbar-brand" href="~/Views/Home/Index.cshtml">
                 <img alt="Charisma Logo" src="~/Pictures/Logo.png" class="hidden-xs" />
                 <span> Bug </span>
             </a>
 
             <!-- user dropdown starts -->
             <div class="btn-group pull-right">
-                <button class="btn btn-default dropdown-toggle" data-toggle="dropdown">
-                    <i class="glyphicon glyphicon-user"></i><span class="hidden-sm hidden-xs"> admin</span>
-                    <span class="caret"></span>
-                </button>
-                <ul class="dropdown-menu">
-                    <li>@Html.ActionLink("Profile", "About", "Home")</li>
-                    <li class="divider"></li>
-                    <li><a href="javascript:document.getElementById('logoutForm').submit()">Log off</a></li>
-                </ul>
-            </div>
-            <!-- user dropdown ends -->
-            @*<!-- theme selector starts -->
-                <div class="btn-group pull-right theme-container animated tada">
-                    <button class="btn btn-default dropdown-toggle" data-toggle="dropdown">
-                        <i class="glyphicon glyphicon-tint"></i><span class="hidden-sm hidden-xs">Change Theme / Skin</span>
-                        <span class="caret"></span>
-                    </button>
-                    <ul class="dropdown-menu" id="themes">
-                        <li><a data-value="classic" href="#"><i class="whitespace"></i> Classic</a></li>
-                        <li><a data-value="cerulean" href="#"><i class="whitespace"></i> Cerulean</a></li>
-                        <li><a data-value="cyborg" href="#"><i class="whitespace"></i> Cyborg</a></li>
-                        <li><a data-value="simplex" href="#"><i class="whitespace"></i> Simplex</a></li>
-                        <li><a data-value="darkly" href="#"><i class="whitespace"></i> Darkly</a></li>
-                        <li><a data-value="lumen" href="#"><i class="whitespace"></i> Lumen</a></li>
-                        <li><a data-value="slate" href="#"><i class="whitespace"></i> Slate</a></li>
-                        <li><a data-value="spacelab" href="#"><i class="whitespace"></i> Spacelab</a></li>
-                        <li><a data-value="united" href="#"><i class="whitespace"></i> United</a></li>
-                    </ul>
-                </div>
-                <!-- theme selector ends -->*@
 
-            @*<ul class="collapse navbar-collapse nav navbar-nav top-menu">
-                <li>
-                    <form class="navbar-search pull-left">@using (Html.BeginForm("Index", "Projects", FormMethod.Get))
-                        {
-                            <input type="text" class="form-control" name="searchString" placeholder="Search for posts" value="@ViewBag.SearchString" />
-                            <input type="submit" class="btn btn-primary" value="Search!" />
-                        }
-                        </form>
-                </li>
-            </ul>*@
+                @Html.Partial("_LoginPartial")
+
+            </div>
 
         </div>
     </div>
@@ -171,14 +84,11 @@
                         </div>
                         <ul class="nav nav-pills nav-stacked main-menu">
                             <li class="nav-header">Main</li>
-                            <li> @Html.ActionLink("Home", "Index", "Home") </li>
-                            <li> @Html.ActionLink("Profile", "About", "Home")</li>
-                            <li> @Html.ActionLink("Contact", "Contact", "Home")</li>
+                            <li> @Html.ActionLink("Dashboard", "Index", "Tickets") </li>
                             <li> @Html.ActionLink("Users", "Index", "ApplicationUsers")</li>
                             <li> @Html.ActionLink("Project", "index", "projects")</li>
-                            <li>@Html.ActionLink("Register", "Register", "Account", routeValues: null, htmlAttributes: new { id = "registerLink" })</li>
-                            <li>@Html.ActionLink("Log in", "Login", "Account", routeValues: null, htmlAttributes: new { id = "loginLink" })</li>
-
+                            <li> @Html.ActionLink("Profile", "About", "Home")</li>
+                            <li> @Html.ActionLink("Contact", "Contact", "Home")</li>
                         </ul>
                     </div>
                 </div>
@@ -189,14 +99,7 @@
             <div id="content" class="col-lg-10 col-sm-10">
                 <!-- content starts -->
                 <div>
-                    <ul class="breadcrumb">
-                        <li>
-                            <a href="#">Home</a>
-                        </li>
-                        <li>
-                            <a href="#">Dashboard</a>
-                        </li>
-                    </ul>   @RenderBody()
+                    @RenderBody()
                 </div>
             </div>
         </div>
@@ -219,7 +122,7 @@
 
     </div><!--/.fluid-container-->
     <!-- external javascript -->
-        @RenderSection("scripts", required: false)
+    @RenderSection("scripts", required: false)
 
     <script src="~/Templates Contents/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
 

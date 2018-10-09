@@ -8,6 +8,8 @@ using System.Web;
 using System.Web.Mvc;
 using BugTrackerApplication.Models;
 using PagedList;
+using System.Net.Mail;
+using System.Web.Configuration;
 
 namespace BugTrackerApplication.Controllers
 {
@@ -50,6 +52,8 @@ namespace BugTrackerApplication.Controllers
         }
 
         // GET: Projects/Create
+        [Authorize(Roles = "Admin")]
+
         public ActionResult Create()
         {
             return View();
@@ -60,6 +64,8 @@ namespace BugTrackerApplication.Controllers
         // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
+        [Authorize(Roles = "Admin")]
+
         public ActionResult Create([Bind(Include = "Id,Name,Created,Updated,Description,UserId")] Project project)
         {
             if (ModelState.IsValid)

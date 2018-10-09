@@ -1,7 +1,38 @@
 ﻿@{
     ViewBag.Title = "About";
 }
-<h2>@ViewBag.Title.</h2>
-<h3>@ViewBag.Message</h3>
+<aside id="colorlib-breadcrumbs">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 breadcrumbs text-center">
+                <h2>About</h2>
+                <p>
+                    <span>
+                        @Html.ActionLink("Home", "Index", "Home")
+                    </span> / <span>About</span>
+                </p>
+            </div>
+        </div>
+    </div>
+</aside>
 
-<p>Use this area to provide additional information.</p>
+<div id="colorlib-container">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <img class="img-responsive" src="~/Pictures/profileBug.jpg" alt="" />
+            </div>
+            <div class="col-md-6">
+                <p>
+                    Hi! My Name is <strong>Foyaz</strong>. A highly focused and enthusiastic person who possesses a ‘can do’ attitude &
+                    adapts quickly to specific environment.
+                    Has willingness to learn & enhance skills by being a part of any team for any available position.
+                </p>
+                <blockquote>
+                    Have good knowledge in programming language and mobile game frameworks.
+                </blockquote>
+                <p class="first-letra">This site is about <strong><a href="https://en.wikipedia.org/wiki/Software_bug">Bugs</a></strong> in software.</p>
+            </div>
+        </div>
+    </div>
+</div>
