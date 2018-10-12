@@ -239,6 +239,9 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="Pictures\bugGif.gif" />
+    <Content Include="Pictures\bugGif3.gif" />
+    <Content Include="Pictures\bugGif4.gif" />
     <Content Include="Pictures\Logo-2.png" />
     <Content Include="Pictures\Logo.png" />
     <Content Include="Pictures\profileBug.jpg" />

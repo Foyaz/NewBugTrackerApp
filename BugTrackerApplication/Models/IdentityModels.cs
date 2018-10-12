@@ -1,4 +1,5 @@
-﻿using System.Data.Entity;
+﻿using System.Collections;
+using System.Data.Entity;
 using System.Security.Claims;
 using System.Threading.Tasks;
 using Microsoft.AspNet.Identity;
@@ -40,9 +41,7 @@ namespace BugTrackerApplication.Models
         public System.Data.Entity.DbSet<BugTrackerApplication.Models.Ticket> Tickets { get; set; }
 
         public System.Data.Entity.DbSet<BugTrackerApplication.Models.TicketPriority> TicketPriorities { get; set; }
-
-        public System.Data.Entity.DbSet<BugTrackerApplication.Models.TicketStatus> ticketStatuses { get; set; }
-
-        public System.Data.Entity.DbSet<BugTrackerApplication.Models.TicketType> ticketTypes { get; set; }
-}
+        public System.Data.Entity.DbSet<BugTrackerApplication.Models.TicketStatus> TicketStatus { get; set; }
+        public System.Data.Entity.DbSet<BugTrackerApplication.Models.TicketType> TicketTypes { get; set; }
+    }
 }
