@@ -44,28 +44,63 @@ namespace BugTrackerApplication.Migrations
                 roleManager.Create(new IdentityRole("Submitter"));
             }
 
-            ApplicationUser adminUser;
-
-            if (!context.Users.Any(p => p.UserName == "admin@bugtrackerapp.com"))
+            if (!context.Users.Any(u => u.Email == "myblogapp0@gmail.com"))
             {
-                adminUser = new ApplicationUser();
-                adminUser.Email = "admin@bugtrackerapp.com";
-                adminUser.UserName = "admin@bugtrackerapp.com";
-                adminUser.FirstName = "Mohammad";
-                adminUser.LastName = "Ahmed";
-                adminUser.DisplayName = "Foyaz";
+                userManager.Create(new ApplicationUser
+                {
+                    UserName = "myblogapp0@gmail.com",
+                    Email = "myblogapp0@gmail.com",
+                    Name = "Foyaz",
+                    FirstName = "Foyaz Ahmed",
+                    LastName = "Ahmed",
+                }, "myblogapp0@");
+            }
+            var adminId = userManager.FindByEmail("myblogapp0@gmail.com").Id;
+            userManager.AddToRole(adminId, "Admin");
 
-                userManager.Create(adminUser, "Security-1");
-            }
-            else
+            if (!context.Users.Any(u => u.Email == "ProjectManager@gmail.com"))
             {
-                adminUser = context.Users.First(p => p.UserName == "admin@bugtrackerapp.com");
+                userManager.Create(new ApplicationUser
+                {
+                    UserName = "ProjectManager@gmail.com",
+                    Email = "ProjectManager@gmail.com",
+                    Name = "Foyaz",
+                    FirstName = "Foyaz",
+                    LastName = "Ahmed",
+                }, "ProjectManager@");
             }
+            var projectManagerId = userManager.FindByEmail("ProjectManager@gmail.com").Id;
+            userManager.AddToRole(projectManagerId, "Project Manager");
 
-            if (!userManager.IsInRole(adminUser.Id, "Admin"))
+            if (!context.Users.Any(u => u.Email == "Developer@yahoo.com"))
             {
-                userManager.AddToRole(adminUser.Id, "Admin");
+                userManager.Create(new ApplicationUser
+                {
+                    UserName = "myblogapp0@gmail.com",
+                    Email = "myblogapp0@gmail.com",
+                    Name = "Developer",
+                    FirstName = "Developer",
+                    LastName = "Developer2",
+                }, "myblogapp0@");
             }
+            var DeveloperId = userManager.FindByEmail("Developer@gmail.com").Id;
+            userManager.AddToRole(DeveloperId, "Developer");
+
+            if (!context.Users.Any(u => u.Email == "Submitter@gamil.com"))
+            {
+                userManager.Create(new ApplicationUser
+                {
+                    UserName = "Submitter@gamil.com",
+                    Email = "Submitter@gamil.com",
+                    Name = "Submitter",
+                    FirstName = "Submitter",
+                    LastName = "Submitter2",
+                }, "Submitter@");
+            }
+            var SubmitterId = userManager.FindByEmail("Submitter@gmail.com").Id;
+            userManager.AddToRole(SubmitterId, "Submitter");
+
+
         }
     }
 }

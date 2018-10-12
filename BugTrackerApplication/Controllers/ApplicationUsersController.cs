@@ -9,35 +9,33 @@ using System.Web.Mvc;
 using BugTrackerApplication.Models;
 using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.EntityFramework;
-using BugTrackerApplication.Helper;
+using Microsoft.AspNet.Identity.Owin;
 
 namespace BugTrackerApplication.Controllers
 {
     public class ApplicationUsersController : Controller
     {
         private ApplicationDbContext db = new ApplicationDbContext();
-
         // GET: ApplicationUsers
+
         public ActionResult Index()
         {
             return View(db.Users.ToList());
         }
 
-        // GET: ApplicationUsers/Details/5
-        public ActionResult Details(string id)
+        [Authorize(Roles = "Admin")]
+        public ActionResult ChangeRole(string id)
         {
             var model = new UserRoleViewModel();
-
             var userManager = new UserManager<ApplicationUser>(new UserStore<ApplicationUser>(db));
             var roleManager = new RoleManager<IdentityRole>(new RoleStore<IdentityRole>(db));
-
-            var userRoleHelper = new UserRoleHelper();
-
+            var user = userManager.FindById(id);
             model.Id = id;
-            model.Name = User.Identity.Name;
+            model.Name = user.Name;
+            var roles = roleManager.Roles.ToList();
 
-            var roles = userRoleHelper.GetAllRoles();
-            var userRoles = userRoleHelper.GetUserRoles(id);
+            var userRoles = userManager.GetRoles(id);
+
             model.Roles = new MultiSelectList(roles, "Name", "Name", userRoles);
             return View(model);
         }
@@ -47,17 +45,20 @@ namespace BugTrackerApplication.Controllers
         {
             var userManager = new UserManager<ApplicationUser>(new UserStore<ApplicationUser>(db));
             var user = userManager.FindById(model.Id);
-            var userRoles = userManager.GetRoles(model.Id);
-
+            var userRoles = userManager.GetRoles(user.Id);
             foreach (var role in userRoles)
             {
-                userManager.RemoveFromRole(model.Id, role);
+                userManager.RemoveFromRole(user.Id, role);
             }
-
             foreach (var role in model.SelectedRoles)
             {
-                userManager.AddToRole(model.Id, role);
+                userManager.AddToRole(user.Id, role);
             }
+
+            //STEP 5: Refresh authentication cookies so the roles are updated instantly
+            //var signInManager = HttpContext.GetOwinContext().Get<ApplicationSignInManager>();
+            //signInManager.SignIn(user, isPersistent: false, rememberBrowser: false);
+
 
             return RedirectToAction("Index");
         }

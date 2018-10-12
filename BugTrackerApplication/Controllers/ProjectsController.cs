@@ -18,22 +18,9 @@ namespace BugTrackerApplication.Controllers
         private ApplicationDbContext db = new ApplicationDbContext();
 
         // GET: Projects
-        public ActionResult Index(int? page, string searchString)
+        public ActionResult Index()
         {
-            int pageSize = 3;
-            int pageNumber = (page ?? 1);
-            var projectQuery = db.Projects.OrderBy(p => p.Created).AsQueryable();
-            if (!string.IsNullOrWhiteSpace(searchString))
-            {
-                projectQuery = projectQuery
-                    .Where(p => p.Name.Contains(searchString) ||
-                                p.UserId.Contains(searchString)
-                                ).AsQueryable();
-            }
-            var projectList = projectQuery.ToPagedList(pageNumber, pageSize);
-            ViewBag.SearchString = searchString;
-            return View(projectList);
-
+            return View(db.Projects.ToList());
         }
 
         // GET: Projects/Details/5
@@ -50,10 +37,8 @@ namespace BugTrackerApplication.Controllers
             }
             return View(project);
         }
-
+        [Authorize(Roles = "Admin,Project Manager")]
         // GET: Projects/Create
-        [Authorize(Roles = "Admin")]
-
         public ActionResult Create()
         {
             return View();
@@ -64,9 +49,7 @@ namespace BugTrackerApplication.Controllers
         // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        [Authorize(Roles = "Admin")]
-
-        public ActionResult Create([Bind(Include = "Id,Name,Created,Updated,Description,UserId")] Project project)
+        public ActionResult Create([Bind(Include = "Id,Name")] Project project)
         {
             if (ModelState.IsValid)
             {
@@ -77,7 +60,7 @@ namespace BugTrackerApplication.Controllers
 
             return View(project);
         }
-
+        [Authorize(Roles = "Admin,Project Manager")]
         // GET: Projects/Edit/5
         public ActionResult Edit(int? id)
         {
@@ -98,7 +81,7 @@ namespace BugTrackerApplication.Controllers
         // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit([Bind(Include = "Id,Name,Created,Updated,Description,UserId")] Project project)
+        public ActionResult Edit([Bind(Include = "Id,Name")] Project project)
         {
             if (ModelState.IsValid)
             {
@@ -108,7 +91,7 @@ namespace BugTrackerApplication.Controllers
             }
             return View(project);
         }
-
+        [Authorize(Roles = "Admin,Project Manager")]
         // GET: Projects/Delete/5
         public ActionResult Delete(int? id)
         {
@@ -134,35 +117,53 @@ namespace BugTrackerApplication.Controllers
             db.SaveChanges();
             return RedirectToAction("Index");
         }
+
+        [Authorize(Roles = "Admin,Project Manager")]
         public ActionResult AssignUsers(int id)
         {
             var model = new ProjectAssignViewModel();
+
             model.Id = id;
+
             var project = db.Projects.FirstOrDefault(p => p.Id == id);
             var users = db.Users.ToList();
-            var userIdsAssignedToProject = project.Users
-                .Select(p => p.Id).ToList();
-            model.UserList = new MultiSelectList(users, "Id", "DisplayName", userIdsAssignedToProject);
+            var userIdsAssignedToProject = project.Users.Select(p => p.Id).ToList();
+
+            model.UserList = new MultiSelectList(users, "Id", "Name", userIdsAssignedToProject);
+
+
             return View(model);
         }
+
         [HttpPost]
+
         public ActionResult AssignUsers(ProjectAssignViewModel model)
         {
+            //STEP 1: Find the project
             var project = db.Projects.FirstOrDefault(p => p.Id == model.Id);
+
+            //STEP 2: Remove all assigned users from this project
             var assignedUsers = project.Users.ToList();
+
             foreach (var user in assignedUsers)
             {
                 project.Users.Remove(user);
             }
+
+            //STEP 3: Assign users to the project
             if (model.SelectedUsers != null)
             {
                 foreach (var userId in model.SelectedUsers)
                 {
                     var user = db.Users.FirstOrDefault(p => p.Id == userId);
+
                     project.Users.Add(user);
                 }
             }
+
+            //STEP 4: Save changes to the database
             db.SaveChanges();
+
             return RedirectToAction("Index");
         }
 

@@ -1,4 +1,6 @@
 C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\ApplicationInsights.config
+C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\x86\e_sqlite3.dll
+C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\x64\e_sqlite3.dll
 C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\BugTrackerApplication.dll.config
 C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\BugTrackerApplication.dll
 C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\BugTrackerApplication.pdb
@@ -19,25 +21,28 @@ C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerAppl
 C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
 C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\roslyn\Microsoft.Managed.Core.targets
 C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\roslyn\Microsoft.Win32.Primitives.dll
 C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\roslyn\System.AppContext.dll
 C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\roslyn\System.Collections.Immutable.dll
 C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\roslyn\System.Console.dll
+C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
 C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
 C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\roslyn\System.Globalization.Calendars.dll
 C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\roslyn\System.IO.Compression.dll
+C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\roslyn\System.IO.Compression.ZipFile.dll
 C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\roslyn\System.IO.FileSystem.dll
 C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\roslyn\System.IO.FileSystem.Primitives.dll
-C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\roslyn\System.IO.Pipes.AccessControl.dll
-C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\roslyn\System.IO.Pipes.dll
+C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\roslyn\System.Net.Http.dll
+C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\roslyn\System.Net.Sockets.dll
 C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\roslyn\System.Reflection.Metadata.dll
-C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\roslyn\System.Security.AccessControl.dll
-C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\roslyn\System.Security.Claims.dll
+C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
 C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\roslyn\System.Security.Cryptography.Algorithms.dll
 C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\roslyn\System.Security.Cryptography.Encoding.dll
 C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\roslyn\System.Security.Cryptography.Primitives.dll
 C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
-C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\roslyn\System.Security.Principal.Windows.dll
 C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\roslyn\System.Threading.Tasks.Extensions.dll
 C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\roslyn\System.ValueTuple.dll
 C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\roslyn\System.Xml.ReaderWriter.dll
 C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\roslyn\System.Xml.XmlDocument.dll
@@ -48,6 +53,102 @@ C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerAppl
 C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\roslyn\vbc.rsp
 C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\roslyn\VBCSCompiler.exe
 C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\Microsoft.Win32.Primitives.dll
+C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\netstandard.dll
+C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\System.AppContext.dll
+C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\System.Collections.Concurrent.dll
+C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\System.Collections.dll
+C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\System.Collections.NonGeneric.dll
+C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\System.Collections.Specialized.dll
+C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\System.ComponentModel.dll
+C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\System.ComponentModel.EventBasedAsync.dll
+C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\System.ComponentModel.Primitives.dll
+C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\System.ComponentModel.TypeConverter.dll
+C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\System.Console.dll
+C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\System.Data.Common.dll
+C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\System.Diagnostics.Contracts.dll
+C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\System.Diagnostics.Debug.dll
+C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\System.Diagnostics.FileVersionInfo.dll
+C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\System.Diagnostics.Process.dll
+C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\System.Diagnostics.StackTrace.dll
+C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\System.Diagnostics.TextWriterTraceListener.dll
+C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\System.Diagnostics.Tools.dll
+C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\System.Diagnostics.TraceSource.dll
+C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\System.Diagnostics.Tracing.dll
+C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\System.Drawing.Primitives.dll
+C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\System.Dynamic.Runtime.dll
+C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\System.Globalization.Calendars.dll
+C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\System.Globalization.dll
+C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\System.Globalization.Extensions.dll
+C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\System.IO.Compression.dll
+C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\System.IO.Compression.ZipFile.dll
+C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\System.IO.dll
+C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\System.IO.FileSystem.dll
+C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\System.IO.FileSystem.DriveInfo.dll
+C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\System.IO.FileSystem.Primitives.dll
+C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\System.IO.FileSystem.Watcher.dll
+C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\System.IO.IsolatedStorage.dll
+C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\System.IO.MemoryMappedFiles.dll
+C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\System.IO.Pipes.dll
+C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\System.IO.UnmanagedMemoryStream.dll
+C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\System.Linq.dll
+C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\System.Linq.Expressions.dll
+C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\System.Linq.Parallel.dll
+C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\System.Linq.Queryable.dll
+C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\System.Net.Http.dll
+C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\System.Net.NameResolution.dll
+C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\System.Net.NetworkInformation.dll
+C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\System.Net.Ping.dll
+C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\System.Net.Primitives.dll
+C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\System.Net.Requests.dll
+C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\System.Net.Security.dll
+C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\System.Net.Sockets.dll
+C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\System.Net.WebHeaderCollection.dll
+C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\System.Net.WebSockets.Client.dll
+C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\System.Net.WebSockets.dll
+C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\System.ObjectModel.dll
+C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\System.Reflection.dll
+C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\System.Reflection.Extensions.dll
+C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\System.Reflection.Primitives.dll
+C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\System.Resources.Reader.dll
+C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\System.Resources.ResourceManager.dll
+C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\System.Resources.Writer.dll
+C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\System.Runtime.CompilerServices.VisualC.dll
+C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\System.Runtime.dll
+C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\System.Runtime.Extensions.dll
+C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\System.Runtime.Handles.dll
+C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\System.Runtime.InteropServices.dll
+C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\System.Runtime.Numerics.dll
+C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\System.Runtime.Serialization.Formatters.dll
+C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\System.Runtime.Serialization.Json.dll
+C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\System.Runtime.Serialization.Primitives.dll
+C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\System.Runtime.Serialization.Xml.dll
+C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\System.Security.Claims.dll
+C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\System.Security.Cryptography.Algorithms.dll
+C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\System.Security.Cryptography.Csp.dll
+C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\System.Security.Cryptography.Encoding.dll
+C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\System.Security.Cryptography.Primitives.dll
+C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\System.Security.Cryptography.X509Certificates.dll
+C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\System.Security.Principal.dll
+C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\System.Security.SecureString.dll
+C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\System.Text.Encoding.dll
+C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\System.Text.Encoding.Extensions.dll
+C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\System.Text.RegularExpressions.dll
+C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\System.Threading.dll
+C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\System.Threading.Overlapped.dll
+C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\System.Threading.Tasks.dll
+C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\System.Threading.Tasks.Parallel.dll
+C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\System.Threading.Thread.dll
+C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\System.Threading.ThreadPool.dll
+C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\System.Threading.Timer.dll
+C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\System.ValueTuple.dll
+C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\System.Xml.ReaderWriter.dll
+C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\System.Xml.XDocument.dll
+C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\System.Xml.XmlDocument.dll
+C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\System.Xml.XmlSerializer.dll
+C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\System.Xml.XPath.dll
+C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\System.Xml.XPath.XDocument.dll
 C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\Antlr3.Runtime.dll
 C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\EntityFramework.dll
 C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\EntityFramework.SqlServer.dll
@@ -62,6 +163,11 @@ C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerAppl
 C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\Microsoft.AspNet.Identity.EntityFramework.dll
 C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\Microsoft.AspNet.Identity.Owin.dll
 C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\Microsoft.CodeAnalysis.dll
+C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\Microsoft.CodeAnalysis.Workspaces.Desktop.dll
+C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\Microsoft.CodeAnalysis.Workspaces.dll
 C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
 C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\Microsoft.Owin.dll
 C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\Microsoft.Owin.Host.SystemWeb.dll
@@ -75,7 +181,22 @@ C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerAppl
 C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\Microsoft.Web.Infrastructure.dll
 C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\Newtonsoft.Json.dll
 C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\Owin.dll
+C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\PagedList.dll
+C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\PagedList.Mvc.dll
+C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\SQLitePCLRaw.batteries_green.dll
+C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\SQLitePCLRaw.batteries_v2.dll
+C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\SQLitePCLRaw.core.dll
+C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\SQLitePCLRaw.provider.e_sqlite3.dll
+C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\System.Collections.Immutable.dll
+C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\System.Composition.AttributedModel.dll
+C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\System.Composition.Convention.dll
+C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\System.Composition.Hosting.dll
+C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\System.Composition.Runtime.dll
+C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\System.Composition.TypedParts.dll
 C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\System.Reflection.Metadata.dll
+C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\System.Text.Encoding.CodePages.dll
+C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\System.Threading.Tasks.Extensions.dll
 C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\System.Web.Helpers.dll
 C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\System.Web.Mvc.dll
 C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\System.Web.Optimization.dll
@@ -84,14 +205,38 @@ C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerAppl
 C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\System.Web.WebPages.dll
 C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\System.Web.WebPages.Razor.dll
 C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\WebGrease.dll
+C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\Microsoft.AI.PerfCounterCollector.xml
+C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\Microsoft.AI.Web.xml
+C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\Microsoft.ApplicationInsights.xml
+C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\Microsoft.CodeAnalysis.pdb
+C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\Microsoft.CodeAnalysis.xml
+C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\Microsoft.CodeAnalysis.CSharp.pdb
+C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\Microsoft.CodeAnalysis.CSharp.xml
+C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\Microsoft.CodeAnalysis.CSharp.Workspaces.pdb
+C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\Microsoft.CodeAnalysis.CSharp.Workspaces.xml
+C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\Microsoft.CodeAnalysis.Workspaces.pdb
+C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\Microsoft.CodeAnalysis.Workspaces.xml
+C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\Microsoft.CodeAnalysis.Workspaces.Desktop.pdb
+C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\Microsoft.CodeAnalysis.Workspaces.Desktop.xml
+C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\Newtonsoft.Json.xml
+C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\PagedList.xml
+C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\PagedList.Mvc.xml
+C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\System.Collections.Immutable.xml
+C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\System.Reflection.Metadata.xml
+C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\System.Threading.Tasks.Extensions.xml
 C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\System.Web.Helpers.xml
 C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\System.Web.Mvc.xml
-C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\System.Web.Optimization.xml
 C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\System.Web.Razor.xml
 C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\System.Web.WebPages.xml
 C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\System.Web.WebPages.Deployment.xml
 C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\System.Web.WebPages.Razor.xml
-C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\Newtonsoft.Json.xml
+C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\System.Web.Optimization.xml
 C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\Antlr3.Runtime.pdb
 C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\EntityFramework.xml
 C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\EntityFramework.SqlServer.xml
@@ -107,142 +252,73 @@ C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerAppl
 C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\Microsoft.Owin.Security.Twitter.xml
 C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
 C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\Microsoft.Owin.Security.OAuth.xml
-C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\System.Diagnostics.DiagnosticSource.xml
-C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\Microsoft.AspNet.TelemetryCorrelation.xml
-C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\Microsoft.AI.DependencyCollector.xml
-C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\Microsoft.AI.WindowsServer.xml
-C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\Microsoft.AI.Web.xml
-C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\cs\Microsoft.CodeAnalysis.Workspaces.Desktop.resources.dll
+C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\de\Microsoft.CodeAnalysis.Workspaces.Desktop.resources.dll
+C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\es\Microsoft.CodeAnalysis.Workspaces.Desktop.resources.dll
+C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\fr\Microsoft.CodeAnalysis.Workspaces.Desktop.resources.dll
+C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\it\Microsoft.CodeAnalysis.Workspaces.Desktop.resources.dll
+C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\ja\Microsoft.CodeAnalysis.Workspaces.Desktop.resources.dll
+C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\ko\Microsoft.CodeAnalysis.Workspaces.Desktop.resources.dll
+C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\pl\Microsoft.CodeAnalysis.Workspaces.Desktop.resources.dll
+C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\pt-BR\Microsoft.CodeAnalysis.Workspaces.Desktop.resources.dll
+C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\ru\Microsoft.CodeAnalysis.Workspaces.Desktop.resources.dll
+C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\tr\Microsoft.CodeAnalysis.Workspaces.Desktop.resources.dll
+C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\zh-Hans\Microsoft.CodeAnalysis.Workspaces.Desktop.resources.dll
+C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\zh-Hant\Microsoft.CodeAnalysis.Workspaces.Desktop.resources.dll
 C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\obj\Debug\BugTrackerApplication.csprojAssemblyReference.cache
 C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\obj\Debug\BugTrackerApplication.csproj.CoreCompileInputs.cache
 C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\obj\Debug\BugTrackerApplication.csproj.CopyComplete
 C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\obj\Debug\BugTrackerApplication.dll
 C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\obj\Debug\BugTrackerApplication.pdb
-C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\PagedList.dll
-C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\PagedList.Mvc.dll
-C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\PagedList.xml
-C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\PagedList.Mvc.xml
-C:\Users\SD07\Documents\C#\MVC Applications\New folder\NewBugTrackerApp\BugTrackerApplication\obj\Debug\BugTrackerApplication.csprojAssemblyReference.cache
-C:\Users\SD07\Documents\C#\MVC Applications\New folder\NewBugTrackerApp\BugTrackerApplication\obj\Debug\BugTrackerApplication.csproj.CoreCompileInputs.cache
-C:\Users\SD07\Documents\C#\MVC Applications\New folder\NewBugTrackerApp\BugTrackerApplication\obj\Debug\BugTrackerApplication.dll
-C:\Users\SD07\Documents\C#\MVC Applications\New folder\NewBugTrackerApp\BugTrackerApplication\obj\Debug\BugTrackerApplication.pdb
-C:\Users\SD07\Documents\C#\MVC Applications\New folder\NewBugTrackerApp\BugTrackerApplication\bin\ApplicationInsights.config
-C:\Users\SD07\Documents\C#\MVC Applications\New folder\NewBugTrackerApp\BugTrackerApplication\bin\BugTrackerApplication.dll.config
-C:\Users\SD07\Documents\C#\MVC Applications\New folder\NewBugTrackerApp\BugTrackerApplication\bin\BugTrackerApplication.dll
-C:\Users\SD07\Documents\C#\MVC Applications\New folder\NewBugTrackerApp\BugTrackerApplication\bin\BugTrackerApplication.pdb
-C:\Users\SD07\Documents\C#\MVC Applications\New folder\NewBugTrackerApp\BugTrackerApplication\bin\roslyn\csc.exe
-C:\Users\SD07\Documents\C#\MVC Applications\New folder\NewBugTrackerApp\BugTrackerApplication\bin\roslyn\csc.exe.config
-C:\Users\SD07\Documents\C#\MVC Applications\New folder\NewBugTrackerApp\BugTrackerApplication\bin\roslyn\csc.rsp
-C:\Users\SD07\Documents\C#\MVC Applications\New folder\NewBugTrackerApp\BugTrackerApplication\bin\roslyn\csi.exe
-C:\Users\SD07\Documents\C#\MVC Applications\New folder\NewBugTrackerApp\BugTrackerApplication\bin\roslyn\csi.exe.config
-C:\Users\SD07\Documents\C#\MVC Applications\New folder\NewBugTrackerApp\BugTrackerApplication\bin\roslyn\csi.rsp
-C:\Users\SD07\Documents\C#\MVC Applications\New folder\NewBugTrackerApp\BugTrackerApplication\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
-C:\Users\SD07\Documents\C#\MVC Applications\New folder\NewBugTrackerApp\BugTrackerApplication\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
-C:\Users\SD07\Documents\C#\MVC Applications\New folder\NewBugTrackerApp\BugTrackerApplication\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
-C:\Users\SD07\Documents\C#\MVC Applications\New folder\NewBugTrackerApp\BugTrackerApplication\bin\roslyn\Microsoft.CodeAnalysis.dll
-C:\Users\SD07\Documents\C#\MVC Applications\New folder\NewBugTrackerApp\BugTrackerApplication\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
-C:\Users\SD07\Documents\C#\MVC Applications\New folder\NewBugTrackerApp\BugTrackerApplication\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
-C:\Users\SD07\Documents\C#\MVC Applications\New folder\NewBugTrackerApp\BugTrackerApplication\bin\roslyn\Microsoft.CSharp.Core.targets
-C:\Users\SD07\Documents\C#\MVC Applications\New folder\NewBugTrackerApp\BugTrackerApplication\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
-C:\Users\SD07\Documents\C#\MVC Applications\New folder\NewBugTrackerApp\BugTrackerApplication\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
-C:\Users\SD07\Documents\C#\MVC Applications\New folder\NewBugTrackerApp\BugTrackerApplication\bin\roslyn\Microsoft.Managed.Core.targets
-C:\Users\SD07\Documents\C#\MVC Applications\New folder\NewBugTrackerApp\BugTrackerApplication\bin\roslyn\Microsoft.VisualBasic.Core.targets
-C:\Users\SD07\Documents\C#\MVC Applications\New folder\NewBugTrackerApp\BugTrackerApplication\bin\roslyn\System.AppContext.dll
-C:\Users\SD07\Documents\C#\MVC Applications\New folder\NewBugTrackerApp\BugTrackerApplication\bin\roslyn\System.Collections.Immutable.dll
-C:\Users\SD07\Documents\C#\MVC Applications\New folder\NewBugTrackerApp\BugTrackerApplication\bin\roslyn\System.Console.dll
-C:\Users\SD07\Documents\C#\MVC Applications\New folder\NewBugTrackerApp\BugTrackerApplication\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
-C:\Users\SD07\Documents\C#\MVC Applications\New folder\NewBugTrackerApp\BugTrackerApplication\bin\roslyn\System.Diagnostics.StackTrace.dll
-C:\Users\SD07\Documents\C#\MVC Applications\New folder\NewBugTrackerApp\BugTrackerApplication\bin\roslyn\System.IO.Compression.dll
-C:\Users\SD07\Documents\C#\MVC Applications\New folder\NewBugTrackerApp\BugTrackerApplication\bin\roslyn\System.IO.FileSystem.dll
-C:\Users\SD07\Documents\C#\MVC Applications\New folder\NewBugTrackerApp\BugTrackerApplication\bin\roslyn\System.IO.FileSystem.Primitives.dll
-C:\Users\SD07\Documents\C#\MVC Applications\New folder\NewBugTrackerApp\BugTrackerApplication\bin\roslyn\System.IO.Pipes.AccessControl.dll
-C:\Users\SD07\Documents\C#\MVC Applications\New folder\NewBugTrackerApp\BugTrackerApplication\bin\roslyn\System.IO.Pipes.dll
-C:\Users\SD07\Documents\C#\MVC Applications\New folder\NewBugTrackerApp\BugTrackerApplication\bin\roslyn\System.Reflection.Metadata.dll
-C:\Users\SD07\Documents\C#\MVC Applications\New folder\NewBugTrackerApp\BugTrackerApplication\bin\roslyn\System.Security.AccessControl.dll
-C:\Users\SD07\Documents\C#\MVC Applications\New folder\NewBugTrackerApp\BugTrackerApplication\bin\roslyn\System.Security.Claims.dll
-C:\Users\SD07\Documents\C#\MVC Applications\New folder\NewBugTrackerApp\BugTrackerApplication\bin\roslyn\System.Security.Cryptography.Algorithms.dll
-C:\Users\SD07\Documents\C#\MVC Applications\New folder\NewBugTrackerApp\BugTrackerApplication\bin\roslyn\System.Security.Cryptography.Encoding.dll
-C:\Users\SD07\Documents\C#\MVC Applications\New folder\NewBugTrackerApp\BugTrackerApplication\bin\roslyn\System.Security.Cryptography.Primitives.dll
-C:\Users\SD07\Documents\C#\MVC Applications\New folder\NewBugTrackerApp\BugTrackerApplication\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
-C:\Users\SD07\Documents\C#\MVC Applications\New folder\NewBugTrackerApp\BugTrackerApplication\bin\roslyn\System.Security.Principal.Windows.dll
-C:\Users\SD07\Documents\C#\MVC Applications\New folder\NewBugTrackerApp\BugTrackerApplication\bin\roslyn\System.Text.Encoding.CodePages.dll
-C:\Users\SD07\Documents\C#\MVC Applications\New folder\NewBugTrackerApp\BugTrackerApplication\bin\roslyn\System.ValueTuple.dll
-C:\Users\SD07\Documents\C#\MVC Applications\New folder\NewBugTrackerApp\BugTrackerApplication\bin\roslyn\System.Xml.ReaderWriter.dll
-C:\Users\SD07\Documents\C#\MVC Applications\New folder\NewBugTrackerApp\BugTrackerApplication\bin\roslyn\System.Xml.XmlDocument.dll
-C:\Users\SD07\Documents\C#\MVC Applications\New folder\NewBugTrackerApp\BugTrackerApplication\bin\roslyn\System.Xml.XPath.dll
-C:\Users\SD07\Documents\C#\MVC Applications\New folder\NewBugTrackerApp\BugTrackerApplication\bin\roslyn\System.Xml.XPath.XDocument.dll
-C:\Users\SD07\Documents\C#\MVC Applications\New folder\NewBugTrackerApp\BugTrackerApplication\bin\roslyn\vbc.exe
-C:\Users\SD07\Documents\C#\MVC Applications\New folder\NewBugTrackerApp\BugTrackerApplication\bin\roslyn\vbc.exe.config
-C:\Users\SD07\Documents\C#\MVC Applications\New folder\NewBugTrackerApp\BugTrackerApplication\bin\roslyn\vbc.rsp
-C:\Users\SD07\Documents\C#\MVC Applications\New folder\NewBugTrackerApp\BugTrackerApplication\bin\roslyn\VBCSCompiler.exe
-C:\Users\SD07\Documents\C#\MVC Applications\New folder\NewBugTrackerApp\BugTrackerApplication\bin\roslyn\VBCSCompiler.exe.config
-C:\Users\SD07\Documents\C#\MVC Applications\New folder\NewBugTrackerApp\BugTrackerApplication\bin\Antlr3.Runtime.dll
-C:\Users\SD07\Documents\C#\MVC Applications\New folder\NewBugTrackerApp\BugTrackerApplication\bin\EntityFramework.dll
-C:\Users\SD07\Documents\C#\MVC Applications\New folder\NewBugTrackerApp\BugTrackerApplication\bin\EntityFramework.SqlServer.dll
-C:\Users\SD07\Documents\C#\MVC Applications\New folder\NewBugTrackerApp\BugTrackerApplication\bin\Microsoft.AI.Agent.Intercept.dll
-C:\Users\SD07\Documents\C#\MVC Applications\New folder\NewBugTrackerApp\BugTrackerApplication\bin\Microsoft.AI.DependencyCollector.dll
-C:\Users\SD07\Documents\C#\MVC Applications\New folder\NewBugTrackerApp\BugTrackerApplication\bin\Microsoft.AI.PerfCounterCollector.dll
-C:\Users\SD07\Documents\C#\MVC Applications\New folder\NewBugTrackerApp\BugTrackerApplication\bin\Microsoft.AI.ServerTelemetryChannel.dll
-C:\Users\SD07\Documents\C#\MVC Applications\New folder\NewBugTrackerApp\BugTrackerApplication\bin\Microsoft.AI.Web.dll
-C:\Users\SD07\Documents\C#\MVC Applications\New folder\NewBugTrackerApp\BugTrackerApplication\bin\Microsoft.AI.WindowsServer.dll
-C:\Users\SD07\Documents\C#\MVC Applications\New folder\NewBugTrackerApp\BugTrackerApplication\bin\Microsoft.ApplicationInsights.dll
-C:\Users\SD07\Documents\C#\MVC Applications\New folder\NewBugTrackerApp\BugTrackerApplication\bin\Microsoft.AspNet.Identity.Core.dll
-C:\Users\SD07\Documents\C#\MVC Applications\New folder\NewBugTrackerApp\BugTrackerApplication\bin\Microsoft.AspNet.Identity.EntityFramework.dll
-C:\Users\SD07\Documents\C#\MVC Applications\New folder\NewBugTrackerApp\BugTrackerApplication\bin\Microsoft.AspNet.Identity.Owin.dll
-C:\Users\SD07\Documents\C#\MVC Applications\New folder\NewBugTrackerApp\BugTrackerApplication\bin\Microsoft.AspNet.TelemetryCorrelation.dll
-C:\Users\SD07\Documents\C#\MVC Applications\New folder\NewBugTrackerApp\BugTrackerApplication\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
-C:\Users\SD07\Documents\C#\MVC Applications\New folder\NewBugTrackerApp\BugTrackerApplication\bin\Microsoft.Owin.dll
-C:\Users\SD07\Documents\C#\MVC Applications\New folder\NewBugTrackerApp\BugTrackerApplication\bin\Microsoft.Owin.Host.SystemWeb.dll
-C:\Users\SD07\Documents\C#\MVC Applications\New folder\NewBugTrackerApp\BugTrackerApplication\bin\Microsoft.Owin.Security.Cookies.dll
-C:\Users\SD07\Documents\C#\MVC Applications\New folder\NewBugTrackerApp\BugTrackerApplication\bin\Microsoft.Owin.Security.dll
-C:\Users\SD07\Documents\C#\MVC Applications\New folder\NewBugTrackerApp\BugTrackerApplication\bin\Microsoft.Owin.Security.Facebook.dll
-C:\Users\SD07\Documents\C#\MVC Applications\New folder\NewBugTrackerApp\BugTrackerApplication\bin\Microsoft.Owin.Security.Google.dll
-C:\Users\SD07\Documents\C#\MVC Applications\New folder\NewBugTrackerApp\BugTrackerApplication\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
-C:\Users\SD07\Documents\C#\MVC Applications\New folder\NewBugTrackerApp\BugTrackerApplication\bin\Microsoft.Owin.Security.OAuth.dll
-C:\Users\SD07\Documents\C#\MVC Applications\New folder\NewBugTrackerApp\BugTrackerApplication\bin\Microsoft.Owin.Security.Twitter.dll
-C:\Users\SD07\Documents\C#\MVC Applications\New folder\NewBugTrackerApp\BugTrackerApplication\bin\Microsoft.Web.Infrastructure.dll
-C:\Users\SD07\Documents\C#\MVC Applications\New folder\NewBugTrackerApp\BugTrackerApplication\bin\Newtonsoft.Json.dll
-C:\Users\SD07\Documents\C#\MVC Applications\New folder\NewBugTrackerApp\BugTrackerApplication\bin\Owin.dll
-C:\Users\SD07\Documents\C#\MVC Applications\New folder\NewBugTrackerApp\BugTrackerApplication\bin\PagedList.dll
-C:\Users\SD07\Documents\C#\MVC Applications\New folder\NewBugTrackerApp\BugTrackerApplication\bin\PagedList.Mvc.dll
-C:\Users\SD07\Documents\C#\MVC Applications\New folder\NewBugTrackerApp\BugTrackerApplication\bin\System.Diagnostics.DiagnosticSource.dll
-C:\Users\SD07\Documents\C#\MVC Applications\New folder\NewBugTrackerApp\BugTrackerApplication\bin\System.Web.Helpers.dll
-C:\Users\SD07\Documents\C#\MVC Applications\New folder\NewBugTrackerApp\BugTrackerApplication\bin\System.Web.Mvc.dll
-C:\Users\SD07\Documents\C#\MVC Applications\New folder\NewBugTrackerApp\BugTrackerApplication\bin\System.Web.Optimization.dll
-C:\Users\SD07\Documents\C#\MVC Applications\New folder\NewBugTrackerApp\BugTrackerApplication\bin\System.Web.Razor.dll
-C:\Users\SD07\Documents\C#\MVC Applications\New folder\NewBugTrackerApp\BugTrackerApplication\bin\System.Web.WebPages.Deployment.dll
-C:\Users\SD07\Documents\C#\MVC Applications\New folder\NewBugTrackerApp\BugTrackerApplication\bin\System.Web.WebPages.dll
-C:\Users\SD07\Documents\C#\MVC Applications\New folder\NewBugTrackerApp\BugTrackerApplication\bin\System.Web.WebPages.Razor.dll
-C:\Users\SD07\Documents\C#\MVC Applications\New folder\NewBugTrackerApp\BugTrackerApplication\bin\WebGrease.dll
-C:\Users\SD07\Documents\C#\MVC Applications\New folder\NewBugTrackerApp\BugTrackerApplication\bin\PagedList.xml
-C:\Users\SD07\Documents\C#\MVC Applications\New folder\NewBugTrackerApp\BugTrackerApplication\bin\PagedList.Mvc.xml
-C:\Users\SD07\Documents\C#\MVC Applications\New folder\NewBugTrackerApp\BugTrackerApplication\bin\System.Web.Helpers.xml
-C:\Users\SD07\Documents\C#\MVC Applications\New folder\NewBugTrackerApp\BugTrackerApplication\bin\System.Web.Mvc.xml
-C:\Users\SD07\Documents\C#\MVC Applications\New folder\NewBugTrackerApp\BugTrackerApplication\bin\System.Web.Optimization.xml
-C:\Users\SD07\Documents\C#\MVC Applications\New folder\NewBugTrackerApp\BugTrackerApplication\bin\System.Web.Razor.xml
-C:\Users\SD07\Documents\C#\MVC Applications\New folder\NewBugTrackerApp\BugTrackerApplication\bin\System.Web.WebPages.xml
-C:\Users\SD07\Documents\C#\MVC Applications\New folder\NewBugTrackerApp\BugTrackerApplication\bin\System.Web.WebPages.Deployment.xml
-C:\Users\SD07\Documents\C#\MVC Applications\New folder\NewBugTrackerApp\BugTrackerApplication\bin\System.Web.WebPages.Razor.xml
-C:\Users\SD07\Documents\C#\MVC Applications\New folder\NewBugTrackerApp\BugTrackerApplication\bin\Newtonsoft.Json.xml
-C:\Users\SD07\Documents\C#\MVC Applications\New folder\NewBugTrackerApp\BugTrackerApplication\bin\Antlr3.Runtime.pdb
-C:\Users\SD07\Documents\C#\MVC Applications\New folder\NewBugTrackerApp\BugTrackerApplication\bin\EntityFramework.xml
-C:\Users\SD07\Documents\C#\MVC Applications\New folder\NewBugTrackerApp\BugTrackerApplication\bin\EntityFramework.SqlServer.xml
-C:\Users\SD07\Documents\C#\MVC Applications\New folder\NewBugTrackerApp\BugTrackerApplication\bin\Microsoft.AspNet.Identity.Core.xml
-C:\Users\SD07\Documents\C#\MVC Applications\New folder\NewBugTrackerApp\BugTrackerApplication\bin\Microsoft.AspNet.Identity.Owin.xml
-C:\Users\SD07\Documents\C#\MVC Applications\New folder\NewBugTrackerApp\BugTrackerApplication\bin\Microsoft.AspNet.Identity.EntityFramework.xml
-C:\Users\SD07\Documents\C#\MVC Applications\New folder\NewBugTrackerApp\BugTrackerApplication\bin\Microsoft.Owin.xml
-C:\Users\SD07\Documents\C#\MVC Applications\New folder\NewBugTrackerApp\BugTrackerApplication\bin\Microsoft.Owin.Host.SystemWeb.xml
-C:\Users\SD07\Documents\C#\MVC Applications\New folder\NewBugTrackerApp\BugTrackerApplication\bin\Microsoft.Owin.Security.xml
-C:\Users\SD07\Documents\C#\MVC Applications\New folder\NewBugTrackerApp\BugTrackerApplication\bin\Microsoft.Owin.Security.Facebook.xml
-C:\Users\SD07\Documents\C#\MVC Applications\New folder\NewBugTrackerApp\BugTrackerApplication\bin\Microsoft.Owin.Security.Cookies.xml
-C:\Users\SD07\Documents\C#\MVC Applications\New folder\NewBugTrackerApp\BugTrackerApplication\bin\Microsoft.Owin.Security.Google.xml
-C:\Users\SD07\Documents\C#\MVC Applications\New folder\NewBugTrackerApp\BugTrackerApplication\bin\Microsoft.Owin.Security.Twitter.xml
-C:\Users\SD07\Documents\C#\MVC Applications\New folder\NewBugTrackerApp\BugTrackerApplication\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
-C:\Users\SD07\Documents\C#\MVC Applications\New folder\NewBugTrackerApp\BugTrackerApplication\bin\Microsoft.Owin.Security.OAuth.xml
-C:\Users\SD07\Documents\C#\MVC Applications\New folder\NewBugTrackerApp\BugTrackerApplication\bin\System.Diagnostics.DiagnosticSource.xml
-C:\Users\SD07\Documents\C#\MVC Applications\New folder\NewBugTrackerApp\BugTrackerApplication\bin\Microsoft.AspNet.TelemetryCorrelation.xml
-C:\Users\SD07\Documents\C#\MVC Applications\New folder\NewBugTrackerApp\BugTrackerApplication\bin\Microsoft.AI.DependencyCollector.xml
-C:\Users\SD07\Documents\C#\MVC Applications\New folder\NewBugTrackerApp\BugTrackerApplication\bin\Microsoft.AI.WindowsServer.xml
-C:\Users\SD07\Documents\C#\MVC Applications\New folder\NewBugTrackerApp\BugTrackerApplication\bin\Microsoft.AI.Web.xml
-C:\Users\SD07\Documents\C#\MVC Applications\New folder\NewBugTrackerApp\BugTrackerApplication\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\SD07\Documents\C#\MVC Applications\New folder\NewBugTrackerApp\BugTrackerApplication\obj\Debug\BugTrackerApplication.csproj.CopyComplete

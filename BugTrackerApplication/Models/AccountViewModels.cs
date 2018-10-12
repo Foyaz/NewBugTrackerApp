@@ -8,6 +8,13 @@ namespace BugTrackerApplication.Models
         [Required]
         [Display(Name = "Email")]
         public string Email { get; set; }
+        [Required]
+        public string Name { get; set; }
+        [Required]
+        public string FirstName { get; set; }
+        [Required]
+        public string LastName { get; set; }
+
     }
 
     public class ExternalLoginListViewModel
@@ -81,11 +88,12 @@ namespace BugTrackerApplication.Models
         public string ConfirmPassword { get; set; }
 
         [Required]
+        public string Name { get; set; }
+        [Required]
         public string FirstName { get; set; }
         [Required]
         public string LastName { get; set; }
-        [Required]
-        public string DisplayName { get; set; }
+        public string DisplayName { get; internal set; }
     }
 
     public class ResetPasswordViewModel

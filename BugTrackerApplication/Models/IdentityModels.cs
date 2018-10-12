@@ -1,10 +1,10 @@
-﻿using System.Collections;
-using System.Data.Entity;
+﻿using System.Data.Entity;
 using System.Security.Claims;
 using System.Threading.Tasks;
 using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.EntityFramework;
-
+using System.Collections.Generic;
+using BugTrackerApplication.Models;
 namespace BugTrackerApplication.Models
 {
     // You can add profile data for the user by adding more properties to your ApplicationUser class, please visit https://go.microsoft.com/fwlink/?LinkID=317594 to learn more.
@@ -14,6 +14,16 @@ namespace BugTrackerApplication.Models
         public string LastName { get; set; }
         public string DisplayName { get; set; }
         public string Name { get; set; }
+        public virtual ICollection<TicketComment> TicketComments { get; set; }
+        public virtual ICollection<TicketAttachment> TicketAttachments { get; set; }
+        public virtual ICollection<Project> Projects { get; set; }
+
+        public ApplicationUser()
+        {
+            this.TicketAttachments = new HashSet<TicketAttachment>();
+            this.TicketComments = new HashSet<TicketComment>();
+            Projects = new HashSet<Project>();
+        }
 
         public async Task<ClaimsIdentity> GenerateUserIdentityAsync(UserManager<ApplicationUser> manager)
         {
@@ -37,11 +47,10 @@ namespace BugTrackerApplication.Models
         }
 
         public System.Data.Entity.DbSet<BugTrackerApplication.Models.Project> Projects { get; set; }
-
         public System.Data.Entity.DbSet<BugTrackerApplication.Models.Ticket> Tickets { get; set; }
-
+        public System.Data.Entity.DbSet<BugTrackerApplication.Models.TicketType> TicketTypes { get; set; }
         public System.Data.Entity.DbSet<BugTrackerApplication.Models.TicketPriority> TicketPriorities { get; set; }
         public System.Data.Entity.DbSet<BugTrackerApplication.Models.TicketStatus> TicketStatus { get; set; }
-        public System.Data.Entity.DbSet<BugTrackerApplication.Models.TicketType> TicketTypes { get; set; }
+
     }
 }

@@ -58,6 +58,19 @@ namespace BugTrackerApplication.Models
         public string ConfirmPassword { get; set; }
     }
 
+    public class ResetNameViewModel
+    {
+        [Required]
+        [DataType(DataType.Text)]
+        [Display(Name = "First Name")]
+        public string FirstName { get; set; }
+
+        [Required]
+        [DataType(DataType.Text)]
+        [Display(Name = "Last Name")]
+        public string LastName { get; set; }
+    }
+
     public class AddPhoneNumberViewModel
     {
         [Required]
