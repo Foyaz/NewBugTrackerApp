@@ -122,3 +122,7 @@ C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerAppl
 C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\PagedList.Mvc.dll
 C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\PagedList.xml
 C:\Users\SD07\Documents\C#\MVC Applications\BugTrackerApplication\BugTrackerApplication\bin\PagedList.Mvc.xml
+C:\Users\SD07\Documents\C#\MVC Applications\New folder\NewBugTrackerApp\BugTrackerApplication\obj\Debug\BugTrackerApplication.csprojAssemblyReference.cache
+C:\Users\SD07\Documents\C#\MVC Applications\New folder\NewBugTrackerApp\BugTrackerApplication\obj\Debug\BugTrackerApplication.csproj.CoreCompileInputs.cache
+C:\Users\SD07\Documents\C#\MVC Applications\New folder\NewBugTrackerApp\BugTrackerApplication\obj\Debug\BugTrackerApplication.dll
+C:\Users\SD07\Documents\C#\MVC Applications\New folder\NewBugTrackerApp\BugTrackerApplication\obj\Debug\BugTrackerApplication.pdb
